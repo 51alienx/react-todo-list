@@ -7,7 +7,7 @@ import Search from "./Search";
 // import apireqest from "./Apitreq";
 
 function App() {
-  const [items, setItems] = useState(JSON.parse(localStorage.getItem("todolist")) || []
+  const [items, setItems] = useState(JSON.parse(localStorage.getItem("todo_list")) || []
   );
 
   // const API_URL=" http://localhost:3500/items"
